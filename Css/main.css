@@ -51,3 +51,124 @@ body{
     display: flex;
 
 }
+.work{
+    width: 1220px;
+    height: 510px;
+    display: flex;
+    margin-top: 254px;
+    margin-left: 350px;
+    gap: 41px;
+    flex-direction: column;
+}
+.work_header{
+    width: 1220px;
+    height: 127px;
+    display: flex;
+    justify-content: center;
+}
+.work_header_text{
+    display: flex;
+    flex-direction: column;
+}
+.work_header_text span{
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-family: inter;
+    color: #37393F;
+    display: flex;
+    justify-content: center;
+}
+.work_header_text h3{
+    margin: 0;
+    font-family: pop;
+    font-weight:700 ;
+    font-size:40px;
+    line-height: 48.4px;
+    color: #37393F ;
+    margin-top: 10px;
+}
+.work_info{
+    width: 1220px;
+    height: 383px;
+    display: flex;
+    gap: 31px;
+}
+.work_info_text{
+    width: 386px;
+    height:383px ;
+    background-color:#F4F4F4 ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+ 
+}
+.text1{
+    width: 300px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+    align-content:center ;
+}
+.text1 h3{
+    width:245px ;
+    height:32px ;
+    font-size:25px ;
+    font-family: inter;
+    font-weight:600 ;
+    line-height: 31.75px;
+    color: #37393F ;
+    margin: 0;
+    align-self:end;
+
+}
+.text1_dec{
+    width:300px ;
+    height:78px ;
+    font-size:18px ;
+    font-family: inter;
+    font-weight:400 ;
+    line-height: 26.31px;
+    color: #7D7D7D ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.test{
+    color: #6B77E5;
+    text-align: center;
+    margin: 0;
+}
+.logo1{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40DDB6;
+    border-radius: 100%;
+    margin-top: -25px;
+   
+}
+.text_test{
+    margin: 23px;
+}
+.logo1 img{
+   width: 43px;
+   height: 43px;
+}
+.logo2{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B77E5;
+    border-radius: 100%;
+    margin-top: -25px;
+   
+}
