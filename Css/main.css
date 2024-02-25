@@ -240,3 +240,86 @@ body{
     align-self: center;
     color: #FFFFFF;
 }
+.team{
+    width: 1220px;
+    height: 659px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 348px;
+    gap: 41px;
+    margin-top: 100px;
+} 
+.team_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.team_text span{
+    width:84px ;
+    height: 22px;
+    font-family:Inter ;
+    font-weight:500;
+    font-size:18px ;
+    line-height: 21.78px;
+    color: #37393F; 
+    text-align: center;
+}
+.team_text h3{
+    width:348px ;
+    height: 48px;
+    font-family: pop ;
+    font-weight:700;
+    font-size:40px ;
+    line-height:48.4px;
+    color: #37393F; 
+    text-align: center;
+    margin: 0;
+
+}
+.team_members{
+    display: flex;
+    gap: 20px;
+}
+.team_foto{
+    width:386px ;
+    height:532px ;
+}
+.team_foto_dec{
+    position: absolute;
+    z-index: -1;
+}
+.team_foto_text{
+    width:341px ;
+    height: 114px ;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 370px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.team_foto_text h3{
+    width:203px ;
+    height: 38px;
+    font-family: pop ;
+    font-weight:600;
+    font-size:25px ;
+    line-height:37.5px;
+    color: #37393F; 
+    text-align: center;
+    margin: 0;
+}
+.team_foto_text p{
+    width:157px ;
+    height: 24px;
+    font-family: Inter ;
+    font-weight:400;
+    font-size:18px ;
+    line-height:24.33px;
+    color:#7D7D7D; 
+    text-align: center;
+    margin: 0;
+}
