@@ -172,3 +172,71 @@ body{
     margin-top: -25px;
    
 }
+.main_foto{
+    width: 1920px;
+    height: 557px ;
+    margin-top: 50px ;
+    background-color: #40DDB6BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_foto_dec{
+    position: absolute;
+    z-index: -1;
+}
+.main_foto_text{
+    width: 511px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.main_foto_text span{
+    width: 102px;
+    height: 22px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:21.78px; 
+    color: #37393F; 
+}
+.main_foto_text h3{
+    width: 349px;
+    height: 48px;
+    font-family: pop;
+    font-weight: 700;
+    font-size:40px ;
+    line-height:48.4px ;
+    color: #37393F;
+    text-align: center;
+    margin: 0;
+}
+.main_foto_text p{
+    width: 512px;
+    height: 52px;
+    font-family: inter;
+    font-weight: 400;
+    font-size:18px ;
+    line-height:26.31px ;
+    color: #37393F;
+    text-align: center;
+}
+.vector{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: #6B77E5;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.foto_vector{
+    width: 20.34px;
+    height: 30.28px;
+    align-self: center;
+    color: #FFFFFF;
+}
